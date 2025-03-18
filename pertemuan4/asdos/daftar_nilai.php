@@ -9,7 +9,7 @@ if (!isset($_SESSION['data_mhs'])) {
 
 $data_mhs = &$_SESSION['data_mhs'];
 
-// Proses form submission
+// Proses
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nama = $_POST['nama'];
     $matakuliah = $_POST['matakuliah'];
